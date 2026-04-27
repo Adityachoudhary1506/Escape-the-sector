@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://escape-room-vgd1.onrender.com/api',
+  baseURL: 'https://escape-the-sector.onrender.com/api',
 });
 
 API.interceptors.request.use((req) => {
